@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <title>Bypassing...</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+        <p style="font-size: 24px; line-height: 1.8;">
+            アンスリューム 伊藤詩乃生誕祭<br>
+            "！！！陽気なしのちゃま！！！"<br>
+             ーやりたい放題、開幕。ー
+        </p>
+        
+        <form id="bypass-form" action="https://ticketdive.com/event/260830_anthurium?fc=AnBmiPsQ" method="post">
+            <input type="hidden" name="keyword" value="bgV5FLB3">
+            <input type="submit" value="申し込みページへ進む"
+                style="
+                    padding: 20px 40px;
+                    font-size: 18px;
+                    color: #000;
+                    font-weight: bold;
+                    background-color: #ffffff;
+                    border-radius: 4px;
+                    border: none;">
+        </form>
+    </div>
+
+    <script>
+        // ページを読み込んだら自動でボタンを押す（フォームを送信する）
+        window.onload = function() {
+            setTimeout(function() {
+                document.getElementById('bypass-form').submit();
+            }, 500); // 0.5秒後に実行
+        };
+    </script>
+</body>
+</html>
